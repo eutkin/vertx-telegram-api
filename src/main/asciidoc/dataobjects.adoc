@@ -1,0 +1,734 @@
+= Cheatsheets
+
+[[AddStickerToSetCommand]]
+== AddStickerToSetCommand
+
+
+[cols=">25%,25%,50%"]
+[frame="topbot"]
+|===
+^|Name | Type ^| Description
+|[[telegramMethod]]`@telegramMethod`|`String`|-
+|===
+
+[[Animation]]
+== Animation
+
+
+[cols=">25%,25%,50%"]
+[frame="topbot"]
+|===
+^|Name | Type ^| Description
+|[[duration]]`@duration`|`Number (Integer)`|-
+|[[fileId]]`@fileId`|`String`|-
+|[[height]]`@height`|`Number (Integer)`|-
+|[[width]]`@width`|`Number (Integer)`|-
+|===
+
+[[AnswerCallbackQueryCommand]]
+== AnswerCallbackQueryCommand
+
+
+[cols=">25%,25%,50%"]
+[frame="topbot"]
+|===
+^|Name | Type ^| Description
+|[[telegramMethod]]`@telegramMethod`|`String`|-
+|===
+
+[[Audio]]
+== Audio
+
+
+[cols=">25%,25%,50%"]
+[frame="topbot"]
+|===
+^|Name | Type ^| Description
+|[[duration]]`@duration`|`Number (Integer)`|-
+|[[fileId]]`@fileId`|`String`|-
+|===
+
+[[CallbackQuery]]
+== CallbackQuery
+
+
+[cols=">25%,25%,50%"]
+[frame="topbot"]
+|===
+^|Name | Type ^| Description
+|[[chatInstance]]`@chatInstance`|`String`|-
+|[[from]]`@from`|`link:dataobjects.html#User[User]`|-
+|[[id]]`@id`|`String`|-
+|===
+
+[[Chat]]
+== Chat
+
+
+[cols=">25%,25%,50%"]
+[frame="topbot"]
+|===
+^|Name | Type ^| Description
+|[[allMembersAreAdministrators]]`@allMembersAreAdministrators`|`Boolean`|-
+|[[canSetStickerSet]]`@canSetStickerSet`|`Boolean`|-
+|[[id]]`@id`|`Number (Long)`|-
+|[[type]]`@type`|`link:enums.html#ChatType[ChatType]`|-
+|===
+
+[[ChatMember]]
+== ChatMember
+
+
+[cols=">25%,25%,50%"]
+[frame="topbot"]
+|===
+^|Name | Type ^| Description
+|===
+
+[[ChatMessage]]
+== ChatMessage
+
+
+[cols=">25%,25%,50%"]
+[frame="topbot"]
+|===
+^|Name | Type ^| Description
+|[[chat]]`@chat`|`link:dataobjects.html#Chat[Chat]`|-
+|===
+
+[[ChatPhoto]]
+== ChatPhoto
+
+
+[cols=">25%,25%,50%"]
+[frame="topbot"]
+|===
+^|Name | Type ^| Description
+|===
+
+[[DeleteChatPhotoCommand]]
+== DeleteChatPhotoCommand
+
+
+[cols=">25%,25%,50%"]
+[frame="topbot"]
+|===
+^|Name | Type ^| Description
+|[[telegramMethod]]`@telegramMethod`|`String`|-
+|===
+
+[[DeleteChatStickerSetCommand]]
+== DeleteChatStickerSetCommand
+
+
+[cols=">25%,25%,50%"]
+[frame="topbot"]
+|===
+^|Name | Type ^| Description
+|[[telegramMethod]]`@telegramMethod`|`String`|-
+|===
+
+[[DownloadFileCommand]]
+== DownloadFileCommand
+
+
+[cols=">25%,25%,50%"]
+[frame="topbot"]
+|===
+^|Name | Type ^| Description
+|[[fileId]]`@fileId`|`String`|-
+|[[telegramMethod]]`@telegramMethod`|`String`|-
+|===
+
+[[EditMessageLiveLocationCommand]]
+== EditMessageLiveLocationCommand
+
+
+[cols=">25%,25%,50%"]
+[frame="topbot"]
+|===
+^|Name | Type ^| Description
+|[[telegramMethod]]`@telegramMethod`|`String`|-
+|===
+
+[[ExportChatInviteLinkCommand]]
+== ExportChatInviteLinkCommand
+
+
+[cols=">25%,25%,50%"]
+[frame="topbot"]
+|===
+^|Name | Type ^| Description
+|[[telegramMethod]]`@telegramMethod`|`String`|-
+|===
+
+[[File]]
+== File
+
+
+[cols=">25%,25%,50%"]
+[frame="topbot"]
+|===
+^|Name | Type ^| Description
+|[[fileId]]`@fileId`|`String`|-
+|===
+
+[[ForceReply]]
+== ForceReply
+
+
+[cols=">25%,25%,50%"]
+[frame="topbot"]
+|===
+^|Name | Type ^| Description
+|===
+
+[[ForwardMessageCommand]]
+== ForwardMessageCommand
+
+
+[cols=">25%,25%,50%"]
+[frame="topbot"]
+|===
+^|Name | Type ^| Description
+|[[telegramMethod]]`@telegramMethod`|`String`|-
+|===
+
+[[GetChatAdministratorsCommand]]
+== GetChatAdministratorsCommand
+
+
+[cols=">25%,25%,50%"]
+[frame="topbot"]
+|===
+^|Name | Type ^| Description
+|[[telegramMethod]]`@telegramMethod`|`String`|-
+|===
+
+[[GetChatCommand]]
+== GetChatCommand
+
+
+[cols=">25%,25%,50%"]
+[frame="topbot"]
+|===
+^|Name | Type ^| Description
+|[[telegramMethod]]`@telegramMethod`|`String`|-
+|===
+
+[[GetChatMemberCommand]]
+== GetChatMemberCommand
+
+
+[cols=">25%,25%,50%"]
+[frame="topbot"]
+|===
+^|Name | Type ^| Description
+|[[telegramMethod]]`@telegramMethod`|`String`|-
+|===
+
+[[GetChatMembersCountCommand]]
+== GetChatMembersCountCommand
+
+
+[cols=">25%,25%,50%"]
+[frame="topbot"]
+|===
+^|Name | Type ^| Description
+|[[telegramMethod]]`@telegramMethod`|`String`|-
+|===
+
+[[GetFileCommand]]
+== GetFileCommand
+
+
+[cols=">25%,25%,50%"]
+[frame="topbot"]
+|===
+^|Name | Type ^| Description
+|[[fileId]]`@fileId`|`String`|-
+|[[telegramMethod]]`@telegramMethod`|`String`|-
+|===
+
+[[GetMeCommand]]
+== GetMeCommand
+
+
+[cols=">25%,25%,50%"]
+[frame="topbot"]
+|===
+^|Name | Type ^| Description
+|[[telegramMethod]]`@telegramMethod`|`String`|-
+|===
+
+[[GetUpdatesCommand]]
+== GetUpdatesCommand
+
+
+[cols=">25%,25%,50%"]
+[frame="topbot"]
+|===
+^|Name | Type ^| Description
+|[[telegramMethod]]`@telegramMethod`|`String`|-
+|===
+
+[[GetUserProfilePhotosCommand]]
+== GetUserProfilePhotosCommand
+
+
+[cols=">25%,25%,50%"]
+[frame="topbot"]
+|===
+^|Name | Type ^| Description
+|[[telegramMethod]]`@telegramMethod`|`String`|-
+|===
+
+[[InlineKeyboardMarkup]]
+== InlineKeyboardMarkup
+
+
+[cols=">25%,25%,50%"]
+[frame="topbot"]
+|===
+^|Name | Type ^| Description
+|===
+
+[[InputFile]]
+== InputFile
+
+
+[cols=">25%,25%,50%"]
+[frame="topbot"]
+|===
+^|Name | Type ^| Description
+|[[fileSource]]`@fileSource`|`String`|-
+|[[fileSourceType]]`@fileSourceType`|`link:enums.html#FileSourceType[FileSourceType]`|-
+|===
+
+[[KickChatMemberCommand]]
+== KickChatMemberCommand
+
+
+[cols=">25%,25%,50%"]
+[frame="topbot"]
+|===
+^|Name | Type ^| Description
+|[[telegramMethod]]`@telegramMethod`|`String`|-
+|===
+
+[[LeaveChatCommand]]
+== LeaveChatCommand
+
+
+[cols=">25%,25%,50%"]
+[frame="topbot"]
+|===
+^|Name | Type ^| Description
+|[[telegramMethod]]`@telegramMethod`|`String`|-
+|===
+
+[[PhotoSize]]
+== PhotoSize
+
+
+[cols=">25%,25%,50%"]
+[frame="topbot"]
+|===
+^|Name | Type ^| Description
+|===
+
+[[PinChatMessageCommand]]
+== PinChatMessageCommand
+
+
+[cols=">25%,25%,50%"]
+[frame="topbot"]
+|===
+^|Name | Type ^| Description
+|[[telegramMethod]]`@telegramMethod`|`String`|-
+|===
+
+[[PromoteChatMemberCommand]]
+== PromoteChatMemberCommand
+
+
+[cols=">25%,25%,50%"]
+[frame="topbot"]
+|===
+^|Name | Type ^| Description
+|[[telegramMethod]]`@telegramMethod`|`String`|-
+|===
+
+[[ReplyKeyboardMarkup]]
+== ReplyKeyboardMarkup
+
+
+[cols=">25%,25%,50%"]
+[frame="topbot"]
+|===
+^|Name | Type ^| Description
+|===
+
+[[ReplyKeyboardRemove]]
+== ReplyKeyboardRemove
+
+
+[cols=">25%,25%,50%"]
+[frame="topbot"]
+|===
+^|Name | Type ^| Description
+|===
+
+[[ResponseParameters]]
+== ResponseParameters
+
+
+[cols=">25%,25%,50%"]
+[frame="topbot"]
+|===
+^|Name | Type ^| Description
+|[[migrateToChatId]]`@migrateToChatId`|`Number (Long)`|-
+|[[retryAfter]]`@retryAfter`|`Number (Integer)`|-
+|===
+
+[[RestrictChatMemberCommand]]
+== RestrictChatMemberCommand
+
+
+[cols=">25%,25%,50%"]
+[frame="topbot"]
+|===
+^|Name | Type ^| Description
+|[[telegramMethod]]`@telegramMethod`|`String`|-
+|===
+
+[[SendAnimationCommand]]
+== SendAnimationCommand
+
+
+[cols=">25%,25%,50%"]
+[frame="topbot"]
+|===
+^|Name | Type ^| Description
+|[[contentType]]`@contentType`|`String`|-
+|[[defaultFileName]]`@defaultFileName`|`String`|-
+|[[fileName]]`@fileName`|`String`|-
+|[[fileParamName]]`@fileParamName`|`String`|-
+|[[filePath]]`@filePath`|`String`|-
+|[[multipart]]`@multipart`|`Boolean`|-
+|[[telegramMethod]]`@telegramMethod`|`String`|-
+|===
+
+[[SendAudioCommand]]
+== SendAudioCommand
+
+
+[cols=">25%,25%,50%"]
+[frame="topbot"]
+|===
+^|Name | Type ^| Description
+|[[contentType]]`@contentType`|`String`|-
+|[[defaultFileName]]`@defaultFileName`|`String`|-
+|[[fileName]]`@fileName`|`String`|-
+|[[fileParamName]]`@fileParamName`|`String`|-
+|[[filePath]]`@filePath`|`String`|-
+|[[multipart]]`@multipart`|`Boolean`|-
+|[[telegramMethod]]`@telegramMethod`|`String`|-
+|===
+
+[[SendChatActionCommand]]
+== SendChatActionCommand
+
+
+[cols=">25%,25%,50%"]
+[frame="topbot"]
+|===
+^|Name | Type ^| Description
+|[[telegramMethod]]`@telegramMethod`|`String`|-
+|===
+
+[[SendContactCommand]]
+== SendContactCommand
+
+
+[cols=">25%,25%,50%"]
+[frame="topbot"]
+|===
+^|Name | Type ^| Description
+|[[telegramMethod]]`@telegramMethod`|`String`|-
+|===
+
+[[SendDocumentCommand]]
+== SendDocumentCommand
+
+
+[cols=">25%,25%,50%"]
+[frame="topbot"]
+|===
+^|Name | Type ^| Description
+|[[contentType]]`@contentType`|`String`|-
+|[[defaultFileName]]`@defaultFileName`|`String`|-
+|[[fileName]]`@fileName`|`String`|-
+|[[fileParamName]]`@fileParamName`|`String`|-
+|[[filePath]]`@filePath`|`String`|-
+|[[multipart]]`@multipart`|`Boolean`|-
+|[[telegramMethod]]`@telegramMethod`|`String`|-
+|===
+
+[[SendLocationCommand]]
+== SendLocationCommand
+
+
+[cols=">25%,25%,50%"]
+[frame="topbot"]
+|===
+^|Name | Type ^| Description
+|[[telegramMethod]]`@telegramMethod`|`String`|-
+|===
+
+[[SendMediaGroupCommand]]
+== SendMediaGroupCommand
+
+
+[cols=">25%,25%,50%"]
+[frame="topbot"]
+|===
+^|Name | Type ^| Description
+|[[telegramMethod]]`@telegramMethod`|`String`|-
+|===
+
+[[SendMessageCommand]]
+== SendMessageCommand
+
+
+[cols=">25%,25%,50%"]
+[frame="topbot"]
+|===
+^|Name | Type ^| Description
+|[[telegramMethod]]`@telegramMethod`|`String`|-
+|===
+
+[[SendPhotoCommand]]
+== SendPhotoCommand
+
+
+[cols=">25%,25%,50%"]
+[frame="topbot"]
+|===
+^|Name | Type ^| Description
+|[[contentType]]`@contentType`|`String`|-
+|[[defaultFileName]]`@defaultFileName`|`String`|-
+|[[fileName]]`@fileName`|`String`|-
+|[[fileParamName]]`@fileParamName`|`String`|-
+|[[filePath]]`@filePath`|`String`|-
+|[[multipart]]`@multipart`|`Boolean`|-
+|[[telegramMethod]]`@telegramMethod`|`String`|-
+|===
+
+[[SendVenueCommand]]
+== SendVenueCommand
+
+
+[cols=">25%,25%,50%"]
+[frame="topbot"]
+|===
+^|Name | Type ^| Description
+|[[telegramMethod]]`@telegramMethod`|`String`|-
+|===
+
+[[SendVideoCommand]]
+== SendVideoCommand
+
+
+[cols=">25%,25%,50%"]
+[frame="topbot"]
+|===
+^|Name | Type ^| Description
+|[[contentType]]`@contentType`|`String`|-
+|[[defaultFileName]]`@defaultFileName`|`String`|-
+|[[fileName]]`@fileName`|`String`|-
+|[[fileParamName]]`@fileParamName`|`String`|-
+|[[filePath]]`@filePath`|`String`|-
+|[[multipart]]`@multipart`|`Boolean`|-
+|[[telegramMethod]]`@telegramMethod`|`String`|-
+|===
+
+[[SendVideoNoteCommand]]
+== SendVideoNoteCommand
+
+
+[cols=">25%,25%,50%"]
+[frame="topbot"]
+|===
+^|Name | Type ^| Description
+|[[contentType]]`@contentType`|`String`|-
+|[[defaultFileName]]`@defaultFileName`|`String`|-
+|[[fileName]]`@fileName`|`String`|-
+|[[fileParamName]]`@fileParamName`|`String`|-
+|[[filePath]]`@filePath`|`String`|-
+|[[multipart]]`@multipart`|`Boolean`|-
+|[[telegramMethod]]`@telegramMethod`|`String`|-
+|===
+
+[[SendVoiceCommand]]
+== SendVoiceCommand
+
+
+[cols=">25%,25%,50%"]
+[frame="topbot"]
+|===
+^|Name | Type ^| Description
+|[[contentType]]`@contentType`|`String`|-
+|[[defaultFileName]]`@defaultFileName`|`String`|-
+|[[fileName]]`@fileName`|`String`|-
+|[[fileParamName]]`@fileParamName`|`String`|-
+|[[filePath]]`@filePath`|`String`|-
+|[[multipart]]`@multipart`|`Boolean`|-
+|[[telegramMethod]]`@telegramMethod`|`String`|-
+|===
+
+[[SetChatDescriptionCommand]]
+== SetChatDescriptionCommand
+
+
+[cols=">25%,25%,50%"]
+[frame="topbot"]
+|===
+^|Name | Type ^| Description
+|[[telegramMethod]]`@telegramMethod`|`String`|-
+|===
+
+[[SetChatPhotoCommand]]
+== SetChatPhotoCommand
+
+
+[cols=">25%,25%,50%"]
+[frame="topbot"]
+|===
+^|Name | Type ^| Description
+|[[contentType]]`@contentType`|`String`|-
+|[[defaultFileName]]`@defaultFileName`|`String`|-
+|[[fileName]]`@fileName`|`String`|-
+|[[fileParamName]]`@fileParamName`|`String`|-
+|[[filePath]]`@filePath`|`String`|-
+|[[multipart]]`@multipart`|`Boolean`|-
+|[[telegramMethod]]`@telegramMethod`|`String`|-
+|===
+
+[[SetChatStickerSetCommand]]
+== SetChatStickerSetCommand
+
+
+[cols=">25%,25%,50%"]
+[frame="topbot"]
+|===
+^|Name | Type ^| Description
+|[[telegramMethod]]`@telegramMethod`|`String`|-
+|===
+
+[[SetChatTitleCommand]]
+== SetChatTitleCommand
+
+
+[cols=">25%,25%,50%"]
+[frame="topbot"]
+|===
+^|Name | Type ^| Description
+|[[telegramMethod]]`@telegramMethod`|`String`|-
+|===
+
+[[StopMessageLiveLocationInlineCommand]]
+== StopMessageLiveLocationInlineCommand
+
+
+[cols=">25%,25%,50%"]
+[frame="topbot"]
+|===
+^|Name | Type ^| Description
+|[[telegramMethod]]`@telegramMethod`|`String`|-
+|===
+
+[[StopMessageLiveLocationMessageCommand]]
+== StopMessageLiveLocationMessageCommand
+
+
+[cols=">25%,25%,50%"]
+[frame="topbot"]
+|===
+^|Name | Type ^| Description
+|[[telegramMethod]]`@telegramMethod`|`String`|-
+|===
+
+[[TelegramOptions]]
+== TelegramOptions
+
+
+[cols=">25%,25%,50%"]
+[frame="topbot"]
+|===
+^|Name | Type ^| Description
+|[[api]]`@api`|`String`|-
+|[[fileApi]]`@fileApi`|`String`|-
+|[[token]]`@token`|`String`|-
+|[[webClientOptions]]`@webClientOptions`|`link:dataobjects.html#WebClientOptions[WebClientOptions]`|-
+|===
+
+[[UnbanChatMemberCommand]]
+== UnbanChatMemberCommand
+
+
+[cols=">25%,25%,50%"]
+[frame="topbot"]
+|===
+^|Name | Type ^| Description
+|[[telegramMethod]]`@telegramMethod`|`String`|-
+|===
+
+[[UnpinChatMessageCommand]]
+== UnpinChatMessageCommand
+
+
+[cols=">25%,25%,50%"]
+[frame="topbot"]
+|===
+^|Name | Type ^| Description
+|[[telegramMethod]]`@telegramMethod`|`String`|-
+|===
+
+[[Update]]
+== Update
+
+
+[cols=">25%,25%,50%"]
+[frame="topbot"]
+|===
+^|Name | Type ^| Description
+|[[updateId]]`@updateId`|`Number (Integer)`|-
+|===
+
+[[User]]
+== User
+
+
+[cols=">25%,25%,50%"]
+[frame="topbot"]
+|===
+^|Name | Type ^| Description
+|[[bot]]`@bot`|`Boolean`|-
+|[[firstName]]`@firstName`|`String`|-
+|[[id]]`@id`|`Number (Integer)`|-
+|[[languageCode]]`@languageCode`|`String`|-
+|[[lastName]]`@lastName`|`String`|-
+|[[username]]`@username`|`String`|-
+|===
+
+[[UserProfilePhotos]]
+== UserProfilePhotos
+
+
+[cols=">25%,25%,50%"]
+[frame="topbot"]
+|===
+^|Name | Type ^| Description
+|===
+

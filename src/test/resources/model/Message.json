@@ -1,0 +1,18 @@
+{
+  "message_id" : 128,
+  "from" : {
+    "id" : 611736478,
+    "is_bot" : true,
+    "first_name" : "Mediascope Hr Bot",
+    "username" : "mediascope_hr_bot"
+  },
+  "chat" : {
+    "id" : 349703984,
+    "first_name" : "Eugene",
+    "last_name" : "Utkin",
+    "username" : "eutkin",
+    "type" : "private"
+  },
+  "date" : 1554292981,
+  "text" : "Hi"
+}

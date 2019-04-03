@@ -1,0 +1,77 @@
+= Enums
+
+[[ChatAction]]
+== ChatAction
+
+
+[cols=">25%,75%"]
+[frame="topbot"]
+|===
+^|Name | Description
+|[[TYPING]]`TYPING`|-
+|[[UPLOAD_PHOTO]]`UPLOAD_PHOTO`|-
+|[[RECORD_VIDEO]]`RECORD_VIDEO`|-
+|[[UPLOAD_VIDEO]]`UPLOAD_VIDEO`|-
+|[[RECORD_AUDIO]]`RECORD_AUDIO`|-
+|[[UPLOAD_AUDIO]]`UPLOAD_AUDIO`|-
+|[[UPLOAD_DOCUMENT]]`UPLOAD_DOCUMENT`|-
+|[[FIND_LOCATION]]`FIND_LOCATION`|-
+|[[RECORD_VIDEO_NOTE]]`RECORD_VIDEO_NOTE`|-
+|[[UPLOAD_VIDEO_NOTE]]`UPLOAD_VIDEO_NOTE`|-
+|===
+
+[[ChatMemberStatus]]
+== ChatMemberStatus
+
+
+[cols=">25%,75%"]
+[frame="topbot"]
+|===
+^|Name | Description
+|[[creator]]`creator`|-
+|[[administrator]]`administrator`|-
+|[[member]]`member`|-
+|[[restricted]]`restricted`|-
+|[[left]]`left`|-
+|[[kicked]]`kicked`|-
+|===
+
+[[ChatType]]
+== ChatType
+
+
+[cols=">25%,75%"]
+[frame="topbot"]
+|===
+^|Name | Description
+|[[PRIVATE]]`PRIVATE`|-
+|[[GROUP]]`GROUP`|-
+|[[SUPERGROUP]]`SUPERGROUP`|-
+|[[CHANNEL]]`CHANNEL`|-
+|===
+
+[[FileSourceType]]
+== FileSourceType
+
+
+[cols=">25%,75%"]
+[frame="topbot"]
+|===
+^|Name | Description
+|[[FILE_ID]]`FILE_ID`|-
+|[[FILE_PATH]]`FILE_PATH`|-
+|[[FILE_EXTERNAL_URL]]`FILE_EXTERNAL_URL`|-
+|===
+
+[[ParseMode]]
+== ParseMode
+
+
+[cols=">25%,75%"]
+[frame="topbot"]
+|===
+^|Name | Description
+|[[Markdown]]`Markdown`|-
+|[[HTML]]`HTML`|-
+|===
+
